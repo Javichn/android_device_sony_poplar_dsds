@@ -16,3 +16,8 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/lineage_poplar_dsds.mk
+    
+    COMMON_LUNCH_CHOICES := \
+    lineage_poplar_dsds-user \
+    lineage_poplar_dsds-userdebug \
+    lineage_poplar_dsds-eng
